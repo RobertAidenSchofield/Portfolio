@@ -62,20 +62,20 @@ export const projectsData = [
     description:
       'RockPaperScissors is a game where you can play against the computer.',
     tags: ['Python'],
-    //imageUrl: corpcommentImg,
+    imageUrl: corpcommentImg,
   },
   {
     title: 'Tv Show Search',
     description:
       'Website that searches list of tv shows. Utilizes a MySql Data base, PHP search functions, And light javascript.',
     tags: ['PHP', 'HTML', 'MySql', 'Javascript', 'CSS'],
-    //imageUrl: rmtdevImg,
+    imageUrl: rmtdevImg,
   },
   {
     title: 'Sort Program',
     description: 'Small CLI program that sorts a list of numbers.',
     tags: ['C++'],
-    //imageUrl: wordanalyticsImg,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
