@@ -3,8 +3,8 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import corpcommentImg from '@/public/corpcomment.png';
-import rmtdevImg from '@/public/rmtdev.png';
-import wordanalyticsImg from '@/public/wordanalytics.png';
+import imsIMG from '@/public/IMS.png';
+import appointImg from '@/public/Appoint.png';
 
 export const links = [
   {
@@ -35,7 +35,7 @@ export const experiencesData = [
     title: 'IT Manager',
     location: 'Pembroke Pines, FL',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'Worked in various IT roles, including software development, project management, and infrastructure management',
     icon: React.createElement(CgWorkAlt),
     date: '2012 - Current',
   },
@@ -58,24 +58,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'RockPaper Scissors',
+    title: 'Inventory Managment System',
+    description: 'Inventory Managment System built with java and javaFX',
+    tags: ['Java,JavaFX'],
+    imageUrl: imsIMG,
+  },
+  {
+    title: 'Appointment Scheduler',
     description:
-      'RockPaperScissors is a game where you can play against the computer.',
-    tags: ['Python'],
-    imageUrl: corpcommentImg,
+      'This project is a Java application that manages appointments, customers, and contacts using a MySQL database. It provides a user interface for scheduling, updating, and deleting appointments, as well as generating reports and schedules.',
+    tags: ['Java', 'JavaFX', 'MySQL', 'JDBC'],
+    imageUrl: appointImg,
   },
   {
     title: 'Tv Show Search',
     description:
       'Website that searches list of tv shows. Utilizes a MySql Data base, PHP search functions, And light javascript.',
     tags: ['PHP', 'HTML', 'MySql', 'Javascript', 'CSS'],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: 'Sort Program',
-    description: 'Small CLI program that sorts a list of numbers.',
-    tags: ['C++'],
-    imageUrl: wordanalyticsImg,
+    imageUrl: corpcommentImg,
   },
 ] as const;
 
