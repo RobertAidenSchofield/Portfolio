@@ -95,7 +95,7 @@ export default function Intro() {
         </span>{' '}
         <span className='font-bold'></span> I enjoy building{' '}
         <span className='italic'>sites & apps</span>.{''} My focus is{' '}
-        <span className='underline'>React (Next.js)</span>.
+        <span className='underline'>Typescript and Java</span>.
       </motion.h1>
 
       <motion.div

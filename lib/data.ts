@@ -66,7 +66,7 @@ export const projectsData = [
   {
     title: 'Appointment Scheduler',
     description:
-      'This project is a Java application that manages appointments, customers, and contacts using a MySQL database. It provides a user interface for scheduling, updating, and deleting appointments, as well as generating reports and schedules.',
+      'Java application that manages appointments, customers, and contacts using a MySQL database.',
     tags: ['Java', 'JavaFX', 'MySQL', 'JDBC'],
     imageUrl: appointImg,
   },
