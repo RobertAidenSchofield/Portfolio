@@ -81,8 +81,8 @@ export const projectsData = [
   {
     title: 'Delivery Management Optimization System',
     description:
-      'Package delivery optimization system for the Parcel Service (PS) that integrates data from CSV files, utilizes a hash table' +
-      'for efficient package retrieval, calculates optimal delivery routes to minimize mileage, and enables real-time tracking and' +
+      'Package delivery optimization for the Parcel Service. Integrates data from CSV files, utilizes a hash table ' +
+      'for package retrieval, calculates optimal delivery routes to minimize mileage, enables real-time tracking and ' +
       'user queries for package status',
     tags: [
       'Python',
