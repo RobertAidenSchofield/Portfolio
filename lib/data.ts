@@ -32,7 +32,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'IT Manager',
+    title: 'IT Supervisor',
     location: 'Pembroke Pines, FL',
     description:
       'Worked in various IT roles, including software development, project management, and infrastructure management',
@@ -54,6 +54,14 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: '2024',
   },
+  {
+    title: ' M.S in Computer Science ',
+    location: 'Atlanta, Georgia',
+    description:
+      "Enrolled in the Computer Science Master's program at Georgia Tech",
+    icon: React.createElement(LuGraduationCap),
+    date: 'Expected: 2027',
+  },
 ] as const;
 
 export const projectsData = [
@@ -71,32 +79,37 @@ export const projectsData = [
     imageUrl: appointImg,
   },
   {
-    title: 'Tv Show Search',
+    title: 'Delivery Management Optimization System',
     description:
-      'Website that searches list of tv shows. Utilizes a MySql Data base, PHP search functions, And light javascript.',
-    tags: ['PHP', 'HTML', 'MySql', 'Javascript', 'CSS'],
+      'Package delivery optimization system for the Parcel Service (PS) that integrates data from CSV files, utilizes a hash table' +
+      'for efficient package retrieval, calculates optimal delivery routes to minimize mileage, and enables real-time tracking and' +
+      'user queries for package status',
+    tags: [
+      'Python',
+      'Hash table',
+      'CSV',
+      'CLI',
+      'Data Structures & Alogrithims',
+    ],
     imageUrl: corpcommentImg,
   },
 ] as const;
 
 export const skillsData = [
-  'HTML',
-  'CSS',
-  'Java',
-  'C',
-  'PHP',
-  'C++',
+  'React',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Next.js',
+  'Java',
+  'Python',
   'Node.js',
+  'HTML',
+  'CSS',
+  'PHP',
+  'C++',
   'Git',
   'Tailwind',
-  'Prisma',
   'mySQL',
   'PostgreSQL',
-  'Python',
   'Framer Motion',
 ] as const;
 
