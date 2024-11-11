@@ -49,14 +49,15 @@ export const experiencesData = [
 
   {
     title: ' B.S in Computer Science ',
-    location: 'Salt Lake City, Utah',
-    description: 'Graduated from Western Governors University',
+    location: 'WGU',
+    description:
+      'Graduated from Western Governors University with a degree in Computer Science',
     icon: React.createElement(LuGraduationCap),
     date: '2024',
   },
   {
-    title: ' M.S in Computer Science ',
-    location: 'Atlanta, Georgia',
+    title: ' M.S in Computer Science',
+    location: 'Georgia Tech',
     description:
       "Enrolled in the Computer Science Master's program at Georgia Tech",
     icon: React.createElement(LuGraduationCap),
