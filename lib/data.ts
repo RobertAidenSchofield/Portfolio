@@ -39,6 +39,7 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: '2012 - Current',
   },
+
   {
     title: 'Graduated ED-X Miami bootcamp',
     location: 'Miami, FL',
